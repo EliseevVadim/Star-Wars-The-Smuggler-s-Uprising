@@ -1,0 +1,13 @@
+D:\Star Wars-The Smuggler's Uprising\Star Wars-The Smuggler's Uprising\Star Wars-The Smuggler's Uprising\bin\Debug\Star Wars-The Smuggler's Uprising.exe
+D:\Star Wars-The Smuggler's Uprising\Star Wars-The Smuggler's Uprising\Star Wars-The Smuggler's Uprising\bin\Debug\Star Wars-The Smuggler's Uprising.pdb
+D:\Star Wars-The Smuggler's Uprising\Star Wars-The Smuggler's Uprising\Star Wars-The Smuggler's Uprising\obj\Debug\Star Wars-The Smuggler's Uprising.csprojAssemblyReference.cache
+D:\Star Wars-The Smuggler's Uprising\Star Wars-The Smuggler's Uprising\Star Wars-The Smuggler's Uprising\obj\Debug\TheGame.AutorizationForm.resources
+D:\Star Wars-The Smuggler's Uprising\Star Wars-The Smuggler's Uprising\Star Wars-The Smuggler's Uprising\obj\Debug\TheGame.GetAmountForm.resources
+D:\Star Wars-The Smuggler's Uprising\Star Wars-The Smuggler's Uprising\Star Wars-The Smuggler's Uprising\obj\Debug\TheGame.GreetingsForm.resources
+D:\Star Wars-The Smuggler's Uprising\Star Wars-The Smuggler's Uprising\Star Wars-The Smuggler's Uprising\obj\Debug\TheGame.HelpForm.resources
+D:\Star Wars-The Smuggler's Uprising\Star Wars-The Smuggler's Uprising\Star Wars-The Smuggler's Uprising\obj\Debug\TheGame.MainForm.resources
+D:\Star Wars-The Smuggler's Uprising\Star Wars-The Smuggler's Uprising\Star Wars-The Smuggler's Uprising\obj\Debug\TheGame.Properties.Resources.resources
+D:\Star Wars-The Smuggler's Uprising\Star Wars-The Smuggler's Uprising\Star Wars-The Smuggler's Uprising\obj\Debug\TheGame.RegistrationForm.resources
+D:\Star Wars-The Smuggler's Uprising\Star Wars-The Smuggler's Uprising\Star Wars-The Smuggler's Uprising\obj\Debug\Star Wars-The Smuggler's Uprising.csproj.GenerateResource.cache
+D:\Star Wars-The Smuggler's Uprising\Star Wars-The Smuggler's Uprising\Star Wars-The Smuggler's Uprising\obj\Debug\Star Wars-The Smuggler's Uprising.exe
+D:\Star Wars-The Smuggler's Uprising\Star Wars-The Smuggler's Uprising\Star Wars-The Smuggler's Uprising\obj\Debug\Star Wars-The Smuggler's Uprising.pdb

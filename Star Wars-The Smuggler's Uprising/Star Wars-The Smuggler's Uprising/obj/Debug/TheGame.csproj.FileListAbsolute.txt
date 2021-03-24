@@ -1,0 +1,13 @@
+D:\TheGame\TheGame\TheGame\obj\Debug\TheGame.Properties.Resources.resources
+D:\TheGame\TheGame\TheGame\obj\Debug\TheGame.csproj.GenerateResource.cache
+D:\TheGame\TheGame\TheGame\obj\Debug\TheGame.GreetingsForm.resources
+D:\TheGame\TheGame\TheGame\obj\Debug\TheGame.csprojAssemblyReference.cache
+D:\TheGame\TheGame\TheGame\obj\Debug\TheGame.AutorizationForm.resources
+D:\TheGame\TheGame\TheGame\obj\Debug\TheGame.RegistrationForm.resources
+D:\TheGame\TheGame\TheGame\obj\Debug\TheGame.MainForm.resources
+D:\TheGame\TheGame\TheGame\obj\Debug\TheGame.GetAmountForm.resources
+D:\TheGame\TheGame\TheGame\obj\Debug\TheGame.HelpForm.resources
+D:\TheGame\TheGame\TheGame\bin\Debug\Star Wars-The Smuggler's Uprising.exe
+D:\TheGame\TheGame\TheGame\bin\Debug\Star Wars-The Smuggler's Uprising.pdb
+D:\TheGame\TheGame\TheGame\obj\Debug\Star Wars-The Smuggler's Uprising.exe
+D:\TheGame\TheGame\TheGame\obj\Debug\Star Wars-The Smuggler's Uprising.pdb
