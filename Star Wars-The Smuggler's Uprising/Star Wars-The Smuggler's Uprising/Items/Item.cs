@@ -17,33 +17,11 @@ namespace TheGame
         protected Player _owner;
         public string Name { get => _name; set => _name = value; }
         public string Link_ { get => _link; set => _link = value; }
-        public uint BuyPrice
-        {
-            set
-            {
-                _buyPrice = value;
-            }
-            get
-            {
-                return _buyPrice;
-            }
-        }
-        public uint SalePrice
-        {
-            set
-            {
-                _salePrice = value;
-            }
-            get
-            {
-                return _salePrice;
-            }
-        }
-
+        public uint BuyPrice { get => _buyPrice; set => _buyPrice = value; }
+        public uint SalePrice { get => _salePrice; set => _salePrice = value; }
         public Image Image { get => _image; set => _image = value; }
         public string Descriprion { get => _descriprion; set => _descriprion = value; }
         public Player Owner { get => _owner; set => _owner = value; }
-
         public abstract void Store();
     }
 }

@@ -11,8 +11,7 @@ namespace TheGame
     {
         private GoldType _type;
         private int[] _possibleValues;
-        private int _idx;
-        
+        private int _idx;        
         public GoldCard(int value, Image image, GoldType goldType, string link):base(value, image, link)
         {
             _idx = 0;
@@ -35,17 +34,6 @@ namespace TheGame
 
             }
             UpdateImage();
-        }
-        public int[] PossibleValues
-        {
-            set
-            {
-                _possibleValues = value;
-            }
-            get
-            {
-                return _possibleValues;
-            }
         }
         public static GoldType GetGoldTypeFromString(string type)
         {
@@ -112,17 +100,9 @@ namespace TheGame
                     break;
             }
         }
-        public GoldType Type
-        {
-            set
-            {
-                _type = value;
-            }
-            get
-            {
-                return _type;
-            }
-        }
+        public GoldType Type { get => _type; set => _type = value; }
+        public int[] PossibleValues { get => _possibleValues; set => _possibleValues = value; }
+
         public override void Store()
         {
             string path = Environment.CurrentDirectory + @"\Players\" + _owner.NickName + @"\items.dat";

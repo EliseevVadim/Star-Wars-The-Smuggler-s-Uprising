@@ -25,8 +25,7 @@ namespace TheGame
         public Player Player 
         {
             set
-            {
-                
+            {                
                 _player = value;
                 PictureBox faceBox = new PictureBox();
                 faceBox.BackgroundImage = _player.Face;
@@ -201,7 +200,6 @@ namespace TheGame
             }
         }
         public static GroupBox PlayerBox { get => _playerBox; set => _playerBox = value; }
-
         public GameStorage()
         {
             _link = Environment.CurrentDirectory + @"\Images\";

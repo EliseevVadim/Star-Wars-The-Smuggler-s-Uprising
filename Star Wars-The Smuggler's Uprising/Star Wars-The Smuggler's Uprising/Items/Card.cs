@@ -10,20 +10,8 @@ namespace TheGame
     class Card: Item
     {
         protected int _value;
-        public int Value
-        {
-            set
-            {
-                _value = value;
-            }
-            get
-            {
-                return _value;
-            }
-        }
-
+        public int Value { get => _value; set => _value = value; }
         public string Link { get => _link; set => _link = value; }
-
         public Card(int value, Image image, string link)
         {
             _value = value;
