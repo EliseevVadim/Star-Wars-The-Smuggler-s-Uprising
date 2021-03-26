@@ -153,7 +153,7 @@ namespace TheGame
                         break;
                     case "QuestItem":
                         QuestItem item = new QuestItem(temp[1], temp[2], uint.Parse(temp[3]), uint.Parse(temp[4]), temp[5]);
-                        item.SetOwner(this);
+                        item.Owner = this;
                         _items.Add(item);
                         break;
                     case "LootItem":

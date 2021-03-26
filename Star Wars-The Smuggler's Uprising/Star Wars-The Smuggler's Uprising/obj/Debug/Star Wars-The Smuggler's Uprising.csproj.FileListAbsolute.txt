@@ -11,3 +11,4 @@ D:\Star Wars-The Smuggler's Uprising\Star Wars-The Smuggler's Uprising\Star Wars
 D:\Star Wars-The Smuggler's Uprising\Star Wars-The Smuggler's Uprising\Star Wars-The Smuggler's Uprising\obj\Debug\Star Wars-The Smuggler's Uprising.csproj.GenerateResource.cache
 D:\Star Wars-The Smuggler's Uprising\Star Wars-The Smuggler's Uprising\Star Wars-The Smuggler's Uprising\obj\Debug\Star Wars-The Smuggler's Uprising.exe
 D:\Star Wars-The Smuggler's Uprising\Star Wars-The Smuggler's Uprising\Star Wars-The Smuggler's Uprising\obj\Debug\Star Wars-The Smuggler's Uprising.pdb
+D:\Star Wars-The Smuggler's Uprising\Star Wars-The Smuggler's Uprising\Star Wars-The Smuggler's Uprising\bin\Debug\Star Wars-The Smuggler's Uprising.exe.config

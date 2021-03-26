@@ -218,11 +218,11 @@ namespace TheGame
         }
         public void InitAll()
         {
-            _planets.Add(new Planet("Коррибан", 50, Image.FromFile(_link + @"Planets\korriban.png"), "Родина чистокровных ситхов и священное место для их Ордена. В древние времена здесь строили гробницы для сильнейших правителей,поскольку планета\nимела сильную ауру Тёмной стороны Силы. После Великой гиперпространственной войны Коррибан был покинут. Позже, в 3958 ДБЯ, здесь была реконструирована\nАкадемия ситхов, и планета стала обитаемой вновь."));
-            _planets.Add(new Planet("Нар-Шаддаа", 150, Image.FromFile(_link + @"Planets\nar-shaddaa.png"), "Крупнейшая луна Нал-Хатты, поверхность которой, подобно Корусанту, с 24500 ДБЯ по 26 ПБЯ была покрыта экуменополисом. Однако, в отличие от главной\nгалактической планеты-города Корусанта, Нар-Шаддаа была довольно трущобным миром, с загрязнённой атмосферой, а также с огромным количеством\nпреступников и многих контрабандистов."));
-            _planets.Add(new Planet("Татуин", 300, Image.FromFile(_link + @"Planets\tatooine.png"), "Планета Внешнего Кольца, расположенная в отдаленном крае Галактики. Она находится на пересечении многих гиперпространственных маршрутов, а потому многие\nторговцы используют космопорт Мос-Эйсли в качестве пересадочного пункта. Татуин стал пристанищем для различного рода авантюристов — контрабандистов,\nнаёмников, охотников за головами."));
-            _planets.Add(new Planet("Дантуин", 150, Image.FromFile(_link + @"Planets\dantooine.png"), "Красивый мир зеленых равнин, тихих рек и чистых озёр. Дантуин значительно отстоял от основных торговых маршрутов Галактики, его население\nбыло незначительным и сильно разбросанным по планете в виде небольших поселений с обширным землевладением. Разумные расы были представлены\nлюдьми-фермерами, а также примитивными племенами дантари."));
-            _planets.Add(new Planet("Нал-Хатта", 50, Image.FromFile(_link + @"Planets\hutta.png"), "Планета, находящаяся в системе Й’Тауб Среднего Кольца, которая является столицей Пространства хаттов. На преступном сленге планета называлась «Хаттой».\nЕё спутник Нар-Шаддаа — пристанище пиратов, всевозможных торговцев оружием и контрабандистов."));
+            _planets.Add(new Planet("Коррибан", Image.FromFile(_link + @"Planets\korriban.png"), "Родина чистокровных ситхов и священное место для их Ордена. В древние времена здесь строили гробницы для сильнейших правителей,поскольку планета\nимела сильную ауру Тёмной стороны Силы. После Великой гиперпространственной войны Коррибан был покинут. Позже, в 3958 ДБЯ, здесь была реконструирована\nАкадемия ситхов, и планета стала обитаемой вновь."));
+            _planets.Add(new Planet("Нар-Шаддаа", Image.FromFile(_link + @"Planets\nar-shaddaa.png"), "Крупнейшая луна Нал-Хатты, поверхность которой, подобно Корусанту, с 24500 ДБЯ по 26 ПБЯ была покрыта экуменополисом. Однако, в отличие от главной\nгалактической планеты-города Корусанта, Нар-Шаддаа была довольно трущобным миром, с загрязнённой атмосферой, а также с огромным количеством\nпреступников и многих контрабандистов."));
+            _planets.Add(new Planet("Татуин", Image.FromFile(_link + @"Planets\tatooine.png"), "Планета Внешнего Кольца, расположенная в отдаленном крае Галактики. Она находится на пересечении многих гиперпространственных маршрутов, а потому многие\nторговцы используют космопорт Мос-Эйсли в качестве пересадочного пункта. Татуин стал пристанищем для различного рода авантюристов — контрабандистов,\nнаёмников, охотников за головами."));
+            _planets.Add(new Planet("Дантуин", Image.FromFile(_link + @"Planets\dantooine.png"), "Красивый мир зеленых равнин, тихих рек и чистых озёр. Дантуин значительно отстоял от основных торговых маршрутов Галактики, его население\nбыло незначительным и сильно разбросанным по планете в виде небольших поселений с обширным землевладением. Разумные расы были представлены\nлюдьми-фермерами, а также примитивными племенами дантари."));
+            _planets.Add(new Planet("Нал-Хатта", Image.FromFile(_link + @"Planets\hutta.png"), "Планета, находящаяся в системе Й’Тауб Среднего Кольца, которая является столицей Пространства хаттов. На преступном сленге планета называлась «Хаттой».\nЕё спутник Нар-Шаддаа — пристанище пиратов, всевозможных торговцев оружием и контрабандистов."));
             _locations.Add(new Location("Космопорт", CreateSpaceport()));
             _locations.Add(new Location("Кантина Нал-Хатты", CreateHuttasCantina()));
             _locations.Add(new Location("Город Нал-Хатты", CreateHuttasCity()));
@@ -765,10 +765,7 @@ namespace TheGame
             Panel panel = new Panel();
             panel.Parent = MainForm.ActiveForm;
             panel.Visible = false;
-            panel.Controls.Add(shopBox);
-            panel.Controls.Add(quitBox);
-            panel.Controls.Add(pazaakBox);
-            panel.Controls.Add(_info);
+            panel.Controls.AddRange(new Control[] { shopBox, quitBox, pazaakBox, _info });
             panel.Dock = System.Windows.Forms.DockStyle.Fill;
             panel.Location = new System.Drawing.Point(0, 0);
             panel.Name = "panel1";
@@ -866,9 +863,7 @@ namespace TheGame
             cancellButton.Click += new System.EventHandler(CancellClick);
             _requestBox = new GroupBox();
             _requestBox.BackColor = System.Drawing.SystemColors.Control;
-            _requestBox.Controls.Add(cancellButton);
-            _requestBox.Controls.Add(travellButton);
-            _requestBox.Controls.Add(_infoField);
+            _requestBox.Controls.AddRange(new Control[] { cancellButton, travellButton, _infoField });
             _requestBox.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             _requestBox.Location = new System.Drawing.Point(3, 249);
             _requestBox.Name = "requestBox";
@@ -883,12 +878,7 @@ namespace TheGame
             panel.Visible = false;
             panel.BackgroundImageLayout = ImageLayout.Stretch;
             panel.BackgroundImage = Image.FromFile(_link+"Galaxy.jpg");
-            panel.Controls.Add(korribanBox);
-            panel.Controls.Add(tatooineBox);
-            panel.Controls.Add(huttaBox);
-            panel.Controls.Add(narShaddaaBox);
-            panel.Controls.Add(dantooineBox);
-            panel.Controls.Add(_requestBox);
+            panel.Controls.AddRange(new Control[] { korribanBox, huttaBox, tatooineBox, narShaddaaBox, dantooineBox, _requestBox });
             return panel;
         }
         private void TravellToPlanet(object sender, EventArgs e)
