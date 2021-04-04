@@ -179,7 +179,6 @@ namespace TheGame
                 PictureBox[] phs = { PH1, PH2, PH3, PH4 };
                 PictureBox[] chs = { CH1, CH2, CH3, CH4 };
                 DirectoryInfo directoryInfo = new DirectoryInfo(Environment.CurrentDirectory);
-                //string path = directoryInfo.Parent.Parent.FullName + @"\Images\Cards\cards_01.png";
                 string path = Environment.CurrentDirectory + @"\Images\Cards\cards_01.png";
                 Image back = Image.FromFile(path);
                 playersScore.Text = game.PlayersScore.ToString();

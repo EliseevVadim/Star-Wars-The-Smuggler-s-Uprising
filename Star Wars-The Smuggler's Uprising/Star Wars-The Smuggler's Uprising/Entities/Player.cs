@@ -164,10 +164,6 @@ namespace TheGame
                 }
             }
         }
-        public void AddItem(Item item)
-        {
-            _items.Add(item);
-        }
         public string GetCurrentPositionNameFromFile(bool planet)
         {
             string path = Environment.CurrentDirectory + @"\Players\Players.dat";

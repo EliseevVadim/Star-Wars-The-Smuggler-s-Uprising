@@ -13,7 +13,6 @@ namespace TheGame
         private string _link;
         private List<Planet> _planets;
         private List<Location> _locations;
-        private List<Shop> _shops;
         private GroupBox _requestBox;
         private Label _infoField;
         private MainForm _form;
@@ -205,7 +204,6 @@ namespace TheGame
             _link = Environment.CurrentDirectory + @"\Images\";
             _planets = new List<Planet>();
             _locations = new List<Location>();
-            _shops = new List<Shop>();
             _info = new Label();
             _info.AutoSize = true;
             _info.BackColor = System.Drawing.Color.Transparent;
@@ -1018,7 +1016,7 @@ namespace TheGame
                 {
                     QuestItem perl = new QuestItem("Жемчужина крайт-дракона", "Ценный охотничий трофей", 125000, 25000, _link + @"Icons\dragon-pearl.png");
                     perl.Owner = _player;
-                    _player.AddItem(perl);
+                    _player.Items.Add(perl);
                     MessageBox.Show("Успех! Получена жемчужина крайт-дракона", "Победа", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                 }
                 else
@@ -1167,7 +1165,7 @@ namespace TheGame
                             LootItem extraction = tomb.Loot();
                             extraction.Owner = _player;
                             extraction.Display();
-                            _player.AddItem(extraction);
+                            _player.Items.Add(extraction);
                         }
                         catch
                         {
@@ -1191,7 +1189,7 @@ namespace TheGame
                             LootItem extraction = ruin.Loot();
                             extraction.Owner = _player;
                             extraction.Display();
-                            _player.AddItem(extraction);
+                            _player.Items.Add(extraction);
                         }
                         catch
                         {
